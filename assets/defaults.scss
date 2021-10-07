@@ -19,7 +19,7 @@
 }
 
 .app {
-  background-color: #0C0032;
+  background-color: #00000d;
   min-height: 100vh;
 }
 
@@ -28,7 +28,7 @@
   text-decoration: none;
   color: inherit;
   padding: 8px 16px;
-  background-color: #c92502;
+  background-color: #DAA520;
   border: none;
   color: #fff;
   border-radius: 4px;
@@ -36,13 +36,13 @@
   transition: 0.3s ease all;
 
   &:hover {
-    background-color: #891b02;
+    background-color: #DAA520;
   }
 }
 
 .button-light {
   background-color: transparent;
-  border: 1px solid #c92502;
+  border: 1px solid #e0b036;
 
   &:hover {
     border-color: transparent;
@@ -50,7 +50,7 @@
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
