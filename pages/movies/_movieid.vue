@@ -1,6 +1,8 @@
 <template>
+<div>
+  <NavBar/>
   <div class="single-movie container">
-      <nuxt-link :to="{name:'index'}" class="button">HOME</nuxt-link>
+      <!-- <nuxt-link :to="{name:'index'}" class="button">HOME</nuxt-link> -->
       <div class="movie-info">
           <div class="movie-img">
             <img :src="`https://image.tmdb.org/t/p/w500/${movie.poster_path}`" alt=""/>
@@ -27,6 +29,7 @@
           </p>
       </div>
     </div>
+  </div>
   </div>
 </template>
 

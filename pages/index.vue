@@ -1,6 +1,10 @@
 <template>
+   
 <div class="home">
-    <Banner/>
+    <NavBar/>
+     <Banner/>
     <Home/>
 </div>
+
 </template>
+

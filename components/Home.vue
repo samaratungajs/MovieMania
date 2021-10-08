@@ -68,6 +68,8 @@ export default {
   async fetch(){
     if(this.searchInput ===''){
       await this.getMovies()
+      this.searchInput = ''
+      this.searchedMovies = []
       return
     }
       await this.searchMovies()
@@ -92,21 +94,20 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
   .search {
     display: flex;
     margin-left: 35%;
-    padding: 20px 16px;
+    padding: 15px 16px;
     input {
       max-width: 350px;
       width: 100%;
       padding: 12px 6px;
       font-size: 14px;
-      border: none;
-      &:focus {
-        outline: none;
-      }
+      background: white;
+      outline: white;
+      border-radius: 10px;
     }
     .button {
       border-top-left-radius: 0;
@@ -114,7 +115,7 @@ export default {
     }
   }
   .movies {
-    padding: 32px 60px;
+    padding: 25px 60px;
     .movies-grid {
       display: grid;
       column-gap: 32px;

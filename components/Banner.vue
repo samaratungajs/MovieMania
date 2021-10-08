@@ -19,10 +19,10 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-  height: 400px;
+  height: 200px;
   position: relative;
   @media (min-width: 750px) {
-    height: 500px;
+    height: 400px;
   }
   &::after {
     content: '';
