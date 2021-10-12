@@ -47,7 +47,7 @@ export default {
       data.results.forEach((movie) => {
         this.movies.push(movie)
       })
-      // console.log(data)
+      console.log(this.movies)
     },
     async searchMovies() {
       const data = await this.$axios.$get(
